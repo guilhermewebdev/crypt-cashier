@@ -1,4 +1,4 @@
-- Since I am an client
+- Since I am a client
   - I can generate a billing
     - I enter 
       - the value
@@ -9,3 +9,9 @@
     - When it happens, my debit was finished
     - If I transfer more than necessary, the surplus is refunded
     - If I transfer less than necessary, I'm notified with missing value
+- Since I am an admin
+  - I can configure the service
+    - I can set the main wallet
+      - it's the wallet that all the finished payments will be redirected
+    - I can set the pass phrase for temporary wallets
+    - I can configure if automatic refund is enabled
