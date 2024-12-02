@@ -17,3 +17,4 @@
       - it's the wallet that all the finished payments will be redirected
     - I can set the pass phrase for temporary wallets
     - I can configure if automatic refund is enabled
+    - I can configure a max value to automatic refund
