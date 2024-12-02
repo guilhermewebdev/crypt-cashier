@@ -7,7 +7,9 @@
   - I can transfer the value to the generated wallet address
     - I can wait for the payment processing to be done
     - When it happens, my debit was finished
-    - If I transfer more than necessary, the surplus is refunded
+    - If I transfer more than necessary
+      - And the automatic refund is enabled, the surplus is refunded
+      - And the automatic refund is not enabled, the paid value is just returned
     - If I transfer less than necessary, I'm notified with missing value
 - Since I am an admin
   - I can configure the service
