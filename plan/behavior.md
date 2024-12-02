@@ -1,0 +1,11 @@
+- Since I am an client
+  - I can generate a billing
+    - I enter 
+      - the value
+      - due date, if it exists
+    - It returns a wallet address
+  - I can transfer the value to the generated wallet address
+    - I can wait for the payment processing to be done
+    - When it happens, my debit was finished
+    - If I transfer more than necessary, the surplus is refunded
+    - If I transfer less than necessary, I'm notified with missing value
